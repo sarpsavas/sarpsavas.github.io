@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>KAALSK</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="shortcut icon" href="link/favicon.png" type="image/x-icon">
+</head>
+<body>
+
+
+
+
+  <!-- NAVBAR -->
+  <div class="navbar">
+    <span class="menu-icon" onclick="toggleMenu()">☰</span>
+    
+    <a href="index.html"><img src="link/kaalsk_logo_tran.png" alt="Kulüp Logosu" class="logo"></a>
+    <div class="club-name">KIRKLARELİ ATATÜRK ANADOLU LİSESİ SPOR KULÜBÜ</div>
+  </div>
+
+  <!-- SIDEBAR -->
+  <div class="sidebar" id="sidebar">
+    <span class="close-icon" onclick="toggleMenu()">✖</span>
+    <a href="index.html">Ana Sayfa'ya dön</a>   
+    
+    <a href="#galeri">Galeri</a>
+    
+  </div>
+  
+  
+  
+
+
+	
+<!--############################ GALERİ ############################-->
+    <section id="galeri" class="gallery-section light-bg">
+  <h2 class="galeri-title">Galeri</h2>
+  
+  <div class="gallery-grid">
+    <div class="gallery-item">
+      <img src="galeri/gal5.jpg" alt="Galeri Fotoğrafı" onclick="openGallery(this)">
+    </div>
+    <div class="gallery-item">
+      <img src="galeri/gal6.jpg" alt="Galeri Fotoğrafı" onclick="openGallery(this)">
+    </div>
+    <div class="gallery-item">
+      <img src="galeri/gal7.jpg" alt="Galeri Fotoğrafı" onclick="openGallery(this)">
+    </div>
+    <div class="gallery-item">
+      <img src="galeri/gal8.jpg" alt="Galeri Fotoğrafı" onclick="openGallery(this)">
+    </div>
+    <div class="gallery-item">
+      <img src="galeri/gal9.jpg" alt="Galeri Fotoğrafı" onclick="openGallery(this)">
+    </div>
+    <div class="gallery-item">
+      <img src="galeri/gal10.jpg" alt="Galeri Fotoğrafı" onclick="openGallery(this)">
+    </div>
+  </div>
+</section>
+
+<!-- Lightbox Modal -->
+<div id="galleryModal" class="gallery-modal" onclick="closeGallery()">
+  <span class="close-btn">&times;</span>
+  <img class="modal-content" id="galleryModalImg">
+</div>
+
+    <!--###########################---anasayfaya geri dön---#############################-->
+    <a href="index.html" class="back-home" title="Ana Sayfaya Dön">
+  ⬅ Ana Sayfa
+</a>
+
+    
+
+
+<!--###########################---İLETİŞİM---#############################-->
+
+  <section id="iletisim" class="contact-section">
+  <h2 class="iletisim-title">İletişim</h2>
+  
+  <div class="contact-box">
+    <div class="contact-info">
+      <p><strong>Adres:</strong> Kırklareli Atatürk Anadolu Lisesi Spor Kulübü<br>
+      DEMİRTAŞ MAH. Fuat Umay CADDESİ, KIrklareli Atatürk Anadolu Lisesi No23 Merkez/Kırklareli</p>
+
+        
+
+      <p><strong>Telefon:</strong> +90 533 433 82 34 </br> &nbsp  &nbsp  &nbsp  &nbsp &nbsp  &nbsp  &nbsp  &nbsp  +90 532 637 94 44</p>
+      <p><strong>Email:</strong> sarpsavas288@gmail.com</p>
+      <p><strong>Web sitesi iletişim:</strong> +90 555 032 0971</p>
+
+      <div class="social-links">
+        <p><strong>Bizi Takip Edin:</strong></p>
+        <a href="https://instagram.com/kaalsk39" target="_blank" class="instagram">
+          <i class="fab fa-instagram"></i> @kaalsk39
+        </a>
+        <a href="https://instagram.com/sarp_savas_" target="_blank" class="instagram">
+          <i class="fab fa-instagram"></i> @sarp_savas_ 
+        </a>
+        
+        
+        <a href="gallery.html">galeriye git...</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+  
+  
+  
+
+  <script src="script.js"></script>
+</body>
+</html>
