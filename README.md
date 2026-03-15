@@ -34,3 +34,20 @@ Proje modern web standartları kullanılarak inşa edilmiştir:
 ├── js/                 # Dinamik içerik ve navigasyon scriptleri
 ├── assets/             # Logolar, ikonlar ve görseller
 └── README.md           # Proje dokümantasyonu
+
+---
+
+## 📬 İletişim (Contact)
+
+Kulübümüzle iletişime geçmek veya kayıtlar hakkında bilgi almak için aşağıdaki kanalları kullanabilirsiniz:
+
+| Kanal | Bilgi |
+| :--- | :--- |
+| 📍 **Adres** | Demirtaş Mah. Fuat Umay Cad. No:23 (K.A.A.L. Bahçesi) Merkez/Kırklareli |
+| 📞 **Telefon (Kulüp)** | [+90 533 433 82 34](tel:+905334338234) |
+| 📞 **Telefon (Web)** | [+90 555 032 09 71](tel:+905550320971) |
+| 📧 **E-posta** | [sarpsavas288@gmail.com](mailto:sarpsavas288@gmail.com) |
+| 📸 **Instagram** | [@kaalsk39](https://www.instagram.com/kaalsk39) |
+| 🌐 **Web Sitesi** | [www.kaalsk.com](http://www.kaalsk.com) |
+
+---
