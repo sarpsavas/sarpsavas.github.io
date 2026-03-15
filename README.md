@@ -34,5 +34,3 @@ Proje modern web standartları kullanılarak inşa edilmiştir:
 ├── js/                 # Dinamik içerik ve navigasyon scriptleri
 ├── assets/             # Logolar, ikonlar ve görseller
 └── README.md           # Proje dokümantasyonu
-
-
